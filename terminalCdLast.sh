@@ -1,6 +1,6 @@
 #/bin/bash
 
-function cd () {
+function cdat () {
   echo "$1" > ~/.bash_last_shell_path
   builtin cd "$1"
 }

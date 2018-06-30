@@ -1,11 +1,12 @@
 # Cd Last Shell
 
 Little easy script which open the new bash terminal in the last visited
-directory.
+directory by *cdat*.
 
 **Warning !**
 
-This script overload the use of *cd* command.
+This script creates the *cdat* command. It will write to a file in your home
+directory, .bash_last_shell_path by default.
 
 
 # Requirement
@@ -25,5 +26,7 @@ This script overload the use of *cd* command.
 
   And it's very pleasant for a i3 user.
 
+# Author
 
+  SidoShiro - github
 
