@@ -30,3 +30,10 @@ directory, .bash_last_shell_path by default.
 
   SidoShiro - github
 
+# Edits
+
+  At first the function was named *cd* in order to override the original *cd*
+  command, but it was not good, as it involve file writing, it could also slow
+  down or make undefined effects when *cd* is called in some bash scripts or
+  some particular use.
+
