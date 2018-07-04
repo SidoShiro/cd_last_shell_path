@@ -1,8 +1,8 @@
 #/bin/bash
 
 function cdat () {
-  echo "$1" > ~/.bash_last_shell_path
   builtin cd "$1"
+  echo $PWD > ~/.bash_last_shell_path
 }
 
 moveStart=$(cat .bash_last_shell_path)
