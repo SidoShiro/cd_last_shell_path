@@ -32,8 +32,14 @@ directory, .bash_last_shell_path by default.
 
 # Edits
 
+
+* **Sat, June 30, 2018**
   At first the function was named *cd* in order to override the original *cd*
   command, but it was not good, as it involve file writing, it could also slow
   down or make undefined effects when *cd* is called in some bash scripts or
   some particular use.
+
+* **Wed, July 4, 2018**
+  Using a *echo* of *$PWD* to store the absolute path to the directory, and not
+  the relative path like before. That was a fatal bug!
 
