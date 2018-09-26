@@ -1,9 +1,9 @@
 # Cd Last Shell
 
-Little easy script which open the new bash terminal in the last visited
+Little easy script which opens the new bash terminal in the last visited
 directory by *cdat*.
 
-**Warning !**
+**Warning!**
 
 This script creates the *cdat* command. It will write to a file in your home
 directory, .bash_last_shell_path by default.
@@ -19,7 +19,7 @@ directory, .bash_last_shell_path by default.
   * Copy the terminaCdLast.sh script into your .bashrc
   * reload your bashrc
 
-# Why ?
+# Why?
 
   I was upset when a needed multiple terminal for a project to change directory
   into the one I was working in. This save me a lot of time.
