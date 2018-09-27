@@ -1,23 +1,33 @@
 # Cd Last Shell
 
 Little easy script which opens the new bash terminal in the last visited
-directory by *cdat*.
+directory by ` cdat `.
 
 **Warning!**
 
-This script creates the *cdat* command. It will write to a file in your home
-directory, .bash_last_shell_path by default.
+This script creates the ` cdat ` command. It will write to a file in your home
+directory, `.bash_last_shell_path` by default.
 
 
 # Requirement
 
-  * (bash) should be compatible with other shell languages with little fixes
-  * .bash_last_shell_path file in your ~ directory
+  * **bash** should be compatible with other shell languages with little fixes
+  * *.bash_last_shell_path* file in your *~* directory
 
 # Install
 
-  * Copy the terminaCdLast.sh script into your .bashrc
-  * reload your bashrc
+  * Copy the terminalCdLast.sh script into your .bashrc
+  * Reload your bashrc
+   
+  ```sh
+  source ~/.bashrc
+  ```
+  
+  or 
+  
+  ```sh
+  . ~/.bashrc
+  ```
 
 # Why?
 
@@ -29,6 +39,10 @@ directory, .bash_last_shell_path by default.
 # Author
 
   SidoShiro - github
+  
+# Contributors
+
+  Smlep - https://github.com/Smlep
 
 # Edits
 
