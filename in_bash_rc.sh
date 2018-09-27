@@ -11,8 +11,8 @@
 # cd last shell functions and call
 
 function cdlast () {
-  if [ -f .bash_last_shell_path ] ; then
-    startAt=$(cat .bash_last_shell_path)
+  if [ -f ~/.bash_last_shell_path ] ; then
+    startAt=$(cat ~/.bash_last_shell_path)
     if [ ! $# -eq 1 ] ; then 
       echo -e "$1" "$startAt"
     fi
