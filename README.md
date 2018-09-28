@@ -6,7 +6,7 @@ directory by ` cdat `, or directly by calling `cdlast`
 **Warning!**
 
 * This script creates the ` cdat ` command. It will write to a file in your home
-directory, `~/.bash_last_shell_path` by default.
+directory, *~/.bash_last_shell_path* by default.
 
 * It creates also the `cdlast` command, which change directory the path stored
 in the file.
@@ -19,7 +19,7 @@ in the file.
 
 # Install
 
-  * Copy the in_bash_rc.sh script into your .bashrc
+  * Copy the *in_bash_rc.sh* script into your *.bashrc*
     * Other files are just for code splitting
   * Reload your bashrc
    
