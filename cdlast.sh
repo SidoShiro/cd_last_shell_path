@@ -4,7 +4,7 @@
 function cdlast () {
   if [ -f ~/.bash_last_shell_path ] ; then
     startAt=$(cat ~/.bash_last_shell_path)
-    if [ ! $# -eq 1 ] ; then 
+    if [ ! $# -eq 2 ] ; then 
       echo -e "$1" "$startAt"
     fi
     cd $startAt
