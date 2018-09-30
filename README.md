@@ -1,7 +1,14 @@
 # Cd Last Shell
 
-Little easy script which opens the new bash terminal in the last visited
-directory by ` cdat `, or directly by calling `cdlast`
+# Why?
+
+  I was upset when a needed multiple terminal for a project to change directory
+  into the one I was working in. This save me a lot of time.
+
+  And it's very pleasant for a i3 user.
+
+  This is a little easy script which opens the new bash terminal in the last
+  visited directory by ` cdat `, or directly by calling `cdlast`
 
 **Warning!**
 
@@ -22,28 +29,31 @@ in the file.
   * Copy the *in_bash_rc.sh* script into your *.bashrc*
     * Other files are just for code splitting
   * Reload your bashrc
-   
+
   ```sh
   source ~/.bashrc
   ```
-  
-  or 
-  
+
+  or
+
   ```sh
   . ~/.bashrc
   ```
 
-# Why?
+## Specs
 
-  I was upset when a needed multiple terminal for a project to change directory
-  into the one I was working in. This save me a lot of time.
+* `cdat`
+  * Takes one argument `$1` which is an relative or absolute path
 
-  And it's very pleasant for a i3 user.
+* `cdlast`
+  * Takes one or no argument, the optional argument is a string which will be
+  displayed with the path the command went to.
+  * Display format: \[$1 (your argument)\] [path stored in \[.bash_last_shell_path\]
 
 # Author
 
   SidoShiro - github
-  
+
 # Contributors
 
   Smlep - https://github.com/Smlep
