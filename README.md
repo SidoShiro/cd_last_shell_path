@@ -48,7 +48,7 @@ in the file.
 * `cdlast`
   * Takes one or no argument, the optional argument is a string which will be
   displayed with the path the command went to.
-  * Display format: \[$1 (your argument)\] [path stored in \[.bash_last_shell_path\]
+  * Display format: "**$1** **[.bash\_last\_shell\_path]**"
 
 # Author
 
