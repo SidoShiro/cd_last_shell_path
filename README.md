@@ -9,6 +9,8 @@
 
   This is a little easy script which opens the new bash terminal in the last
   visited directory by ` cdat `, or directly by calling `cdlast`
+  
+  You can also check **pushd** and **popd** if you don't know them, thus my command has a different logic.
 
 **Warning!**
 
